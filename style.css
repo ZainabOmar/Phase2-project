@@ -1,14 +1,33 @@
 @import url("http://netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css");
 
 body {
-  background: #f1f1f1;
+	background-image: url('article.jpg');
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
 }
 
 .article-title {
-  font-weight: bold;
+	font-weight: bold;
+	color: #330d00;
 }
 
-.article-title:hover {
-  color: #e62117;
-  cursor: pointer;
+
+.title :hover{
+	font-weight: bold;
+	color: #330d00;
+	cursor: pointer;
+}
+
+.head {
+	font-weight: bold;
+	color: #330d00;
+}
+
+.header {
+	font-weight: bold;
+	color: #330d00;
 }

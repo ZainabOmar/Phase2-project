@@ -1,6 +1,10 @@
 {
   "name": "Articles",
   "version": "1.0.0",
+   "engines" : {
+    "node" : "6.3.1",
+    "npm" : "3.10.3"
+  },
   "author": "",
   "description": "Your new favorite article",
   "scripts": {
@@ -22,6 +26,7 @@
     "mustache": "^2.3.0",
     "react": "^0.14.7",
     "react-dom": "^0.14.7",
+    "react-native-hyperlink": "0.0.8",
     "requirejs": "^2.3.2"
   },
   "devDependencies": {

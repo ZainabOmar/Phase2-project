@@ -1,12 +1,13 @@
 var CategoryList = (props) => (
-
 	<div className="categories">
-	<h2>All Categories </h2>
+	<h2 className = 'head'>All Categories </h2>
 	{props.articles.map (article => 
-		<CategoryListEntry key = {article.name} article = {article} onclickItem = {props.onclickItem}/>
+		<CategoryListEntry  key = {article.id}
+		article = {article} onclickItem = {props.onclickItem}/>
 		)}
 	</div>
 	)
+
 CategoryList.propTypes = {
 	articles: React.PropTypes.array.isRequired
 };
