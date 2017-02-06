@@ -4,7 +4,7 @@
   "author": "",
   "description": "Your new favorite article",
   "scripts": {
-    "start":"babel -w . --out-dir compiled --presets=es2015,react --ignore=node_modules,compiled --source-maps inline | live-server --open=./index.html --port=8081",
+    "start": "babel -w . --out-dir compiled --presets=es2015,react --ignore=node_modules,compiled --source-maps inline | live-server --open=./index.html --port=8081",
     "build": "babel -w . --out-dir compiled --presets=es2015,react --ignore=node_modules,compiled --source-maps inline | live-server --open=./index.html --port=8081",
     "build:watch": "babel -w . --out-dir compiled --presets=es2015,react --ignore=node_modules,compiled --source-maps inline | live-server --open=./index.html --port=8081",
     "test": "live-server --open=./SpecRunner.html --port=8081",
@@ -25,7 +25,9 @@
     "requirejs": "^2.3.2"
   },
   "devDependencies": {
-    "babel-preset-react": "^6.22.0"
+    "babel-preset-react": "^6.22.0",
+    "eslint": "^3.15.0",
+    "eslint-config-google": "^0.7.1"
   },
   "main": "articles.js",
   "repository": {

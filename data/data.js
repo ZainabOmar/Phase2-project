@@ -1,5 +1,5 @@
-window.articles = [
-  {category: {
+articles = [
+  {category: [{
     name: 'health',
 
     all: "http://www.articlesfactory.com/articles/health.html",
@@ -15,8 +15,8 @@ window.articles = [
     author: 'Robin Albert',
     title: 'Herbal Supplements To Ease Digestive Problems And Get Rid Of Acidity Safely',
     url: 'http://www.articlesfactory.com/articles/health/herbal-supplements-to-ease-digestive-problems-and-get-rid-of-acidity-safely.html'
-  }},
-  {category: {
+  }]},
+  {category: [{
     name: 'sports',
 
     all: 'http://www.articlesfactory.com/articles/sports.html',
@@ -32,8 +32,8 @@ window.articles = [
     author: 'Alexander Greene',
     title: 'Football betting strategies',
     url: 'http://www.articlesfactory.com/articles/sports/football-betting-strategies.html'
-  }},
-  {category: {
+  }]},
+  {category: [{
     name: 'education',
 
     all: 'http://www.articlesfactory.com/articles/education.html',
@@ -49,8 +49,8 @@ window.articles = [
     author: 'Catherine Walsh',
     title: 'Top Professional Year Program Provider in Australia',
     url: 'http://www.articlesfactory.com/articles/education/top-professional-year-program-provider-in-australia.html'
-  }},
-  {category: {
+  }]},
+  {category: [{
     name: 'computers',
 
     all: 'http://www.articlesfactory.com/articles/computers.html',
@@ -66,8 +66,8 @@ window.articles = [
     author: 'Robin Joe',
     title: 'The need and importance of a web development company',
     url: 'http://www.articlesfactory.com/articles/computers/the-need-and-importance-of-a-web-development-company.html'
-  }},
-  {category: {
+  }]},
+  {category: [{
     name: 'javascript',
 
     all: 'http://www.articlesfactory.com/articles/javascript.html',
@@ -83,5 +83,5 @@ window.articles = [
     author: 'Cris Styris',
     title: 'ReactJS vs AngularJS – Which one to pick?',
     url: 'http://www.articlesfactory.com/articles/javascript/reactjs-vs-angularjs-which-one-to-pick.html'
-  }}
+  }]}
 ]

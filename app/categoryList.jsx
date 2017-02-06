@@ -10,5 +10,3 @@ var CategoryList = (props) => (
 CategoryList.propTypes = {
 	articles: React.PropTypes.array.isRequired
 };
-
-window.CategoryList = CategoryList;

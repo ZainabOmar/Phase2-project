@@ -1,13 +1,15 @@
 var CategoryListEntry = (props) => (
 	<div className="category">
 	<div className="article-title" onClick={() => props.onclickItem(props.article)}>
-	{props.article.category.name}
+		{props.article.category[0].name}
 	</div>
-	</div>
+		<ul>
+		{props.article.category.map(article => 
+			<li>{article.title}</li>
+		)}
+		</ul>
+		</div>
 )
 CategoryListEntry.propTypes = {
-	article: React.PropTypes.object.isRequired
+	article: React.PropTypes.array.isRequired
 };
-
-
-window.CategoryListEntry = CategoryListEntry;

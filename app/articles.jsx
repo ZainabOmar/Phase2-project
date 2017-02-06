@@ -38,7 +38,7 @@ class App extends React.Component {
 	onclickItem (article) {
 		console.log(article)
 		this.setState({
-			CurrentArticle: article
+			CurrentArticle: article.category.url
 		});
 	}
 
