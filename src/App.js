@@ -12,9 +12,8 @@ class App extends Component {
   }
 
   componentDidMount() {
-    
     var that = this;
-    fetch('/articles')
+    fetch('/api/articles')
     .then(function(articles){
       that.setState({articles})
       console.log(that)
