@@ -12,6 +12,7 @@ class App extends Component {
   }
 
   componentDidMount() {
+    
     var that = this;
     fetch('/articles')
     .then(function(articles){
