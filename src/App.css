@@ -1,13 +1,11 @@
 @import url("http://netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css");
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css")
 
 body {
-  /*background-image: url('article.jpg');*/
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+}
 
+.App {
+ background-color: #D3D3D3;
 }
 
 .article-title {
@@ -33,13 +31,9 @@ body {
 }
 
 
-
-.App {
-  text-align: center;
-}
-
 .App-logo {
   height: 80px;
+  padding-left: 500px;
 }
 
 .App-header {
@@ -51,10 +45,16 @@ body {
 
 .App-title {
   font-size: 1.5em;
+  text-align: center;
 }
 
 .App-intro {
   font-size: large;
+}
+
+.container{
+  padding-left: 100px;
+  padding-top: 30px;
 }
 
 @keyframes App-logo-spin {
